@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            margin: 0px;
+           
+        }
+
+        header {
+        background-color: white;
+        padding: 10px;
+        margin: 20px;
+        }
+        
+        h1 {
+            font: bold 3em fantasy;
+        }
+        nav {
+            background-color: green;
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.385);
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(66, 146, 66);
+        }
+        h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .desen {
+            background-color: lightgrey;
+            width: max-content;
+        }
+        footer {
+            background-color:lime ;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        nav#rodape {
+            background-color: lime;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esporte Noticias</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Veja agora as principais noticias da semana do mundo do esporte</h2>
+            <article id="fotebol">
+                <h3>Fotebol</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro dignissimos iure, neque reprehenderit accusamus libero mollitia molestias possimus, asperiores aut necessitatibus dolorem vel! Sed ut harum quaerat saepe magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate dolore libero mollitia eius vero, quae optio quas recusandae corporis perspiciatis nostrum, hic id itaque, atque enim voluptates cumque pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus amet voluptatem, enim repellendus quos eius voluptatum! Quisquam sit sint, aliquid officiis dolore nisi repudiandae a non quos quibusdam esse.</p>
+                <aside class="desen">
+                    Escrito pelo cartografo jose linhares pereira
+                </aside>
+            </article>
+            <article id="volei">
+                <h3>Volei</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, dolorum reiciendis aliquam fugit voluptatum eius quas. Voluptatem adipisci cupiditate doloribus, eos veritatis provident necessitatibus! Hic pariatur dolore sequi itaque explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident voluptas, beatae, asperiores corporis itaque officiis, eveniet dolores iste quae quasi eum? Saepe ut consequuntur cupiditate tempora ex porro vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, deserunt, impedit provident facilis sint magni iusto et eveniet molestias ab quo explicabo obcaecati consequatur rerum accusamus unde? Atque, iusto deserunt!</p>
+                <aside class="desen">
+                    Escrito pelo jornalista pedro de alcantra
+                </aside>
+            </article>
+            </section>
+            </main>
+    <footer>
+            <p>oferecimento Esporte Noticias, seu local de esportes informaçoes</p>
+            <nav id="rodape">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+            </nav>
+    </footer>
+</body>
+</html>
